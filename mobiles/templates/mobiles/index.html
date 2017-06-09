@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+{% extends 'registration/check.html' %}
+
+{% block content %}
+{% if mobiles %}
+    <ul>
+    {% for mobile in mobiles %}
+        <li><a href="/xo4y/{{ mobile.id }}/">{{ mobile.name }}</a></li>
+    {% endfor %}
+    </ul>
+    <a href='/xo4y/logout'>Log out</a>
+{% else %}
+    <p>All sold :(</p>
+
+{% endif %}
+{% endblock %}
+
+</body>
+</html>
