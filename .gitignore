@@ -1,0 +1,23 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/workspace.xml
+ishop/__init__.pyc
+ishop/__pycache__/
+ishop/settings.pyc
+ishop/urls.pyc
+ishop/wsgi.pyc
+mobiles/__init__.pyc
+mobiles/__pycache__/
+mobiles/admin.pyc
+mobiles/migrations/0001_initial.pyc
+mobiles/migrations/0002_mobile.pyc
+mobiles/migrations/0003_auto_20170608_0028.pyc
+mobiles/migrations/0004_auto_20170608_0032.pyc
+mobiles/migrations/0005_mobile_price.pyc
+mobiles/migrations/0006_user.pyc
+mobiles/migrations/0007_auto_20170608_0254.pyc
+mobiles/migrations/__init__.pyc
+mobiles/migrations/__pycache__/
+mobiles/models.pyc
+mobiles/urls.pyc
+mobiles/views.pyc
